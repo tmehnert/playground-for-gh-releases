@@ -18,7 +18,7 @@ jobs:
       - name: Build
         run: echo "hello world" > build.txt
 
-      uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v2
         with:
           name: artifact
           path: ./*.txt
