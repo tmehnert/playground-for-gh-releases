@@ -8,7 +8,7 @@ on:
 
 jobs:
   call:
-    uses: .github/workflows/build.yml@${{env.GUTHUB_REF}}
+    uses: tmehnert/playground-for-gh-releases/.github/workflows/build.yml@${{env.GUTHUB_REF}}
 
   build:
     runs-on: ubuntu-latest
