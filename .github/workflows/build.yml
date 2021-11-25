@@ -7,7 +7,7 @@ on:
   pull_request:
     branches: [ main ]
 
-# A comment
+# A comment with content
 jobs:
   build:
     name: Build
